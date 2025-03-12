@@ -95,7 +95,7 @@ app.get('/vk', (req, res) => {
 // Route to return a random number in JSON
 app.get('/tk', (req, res) => {
     const randomNumber = Math.floor(Math.random() * 1000);
-    res.json({ "lkikikk":randomNumber });
+    res.json({ "lkikikk":"randomNumber" });
 });
 
 // Start server
